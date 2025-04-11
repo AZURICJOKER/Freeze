@@ -1,0 +1,22 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("BloxFruits Trade Scam", "GrapeTheme")
+local Tab = Window:NewTab("Freeze")
+local Section = Tab:NewSection("BLOX FRUITS TRADE SCAM")
+Section:NewLabel("Auto Accept")
+label:UpdateLabel("Freeze Trade")
+
+Section:NewToggle("AUTO ACCEPT", "", function(state)
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+
+Section:NewToggle("FREEZE", "ToggleInfo", function(state)
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
