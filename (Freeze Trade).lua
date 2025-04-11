@@ -13,7 +13,7 @@ Section:NewToggle("AUTO ACCEPT", "", function(state)
     end
 end)
 
-Section:NewToggle("FREEZE", "ToggleInfo", function(state)
+Section:NewToggle("FREEZE TRADE", "ToggleInfo", function(state)
     if state then
         print("Toggle On")
     else
