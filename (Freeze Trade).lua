@@ -5,18 +5,11 @@ local Section = Tab:NewSection("BLOX FRUITS TRADE SCAM")
 Section:NewLabel("Auto Accept")
 label:UpdateLabel("Freeze Trade")
 
-Section:NewToggle("AUTO ACCEPT", "", function(state)
-    if state then
-        print("Toggle On")
-    else
-        print("Toggle Off")
-    end
+Section:NewButton("Auto Accept", "", function()
+    print("Clicked")
 end)
 
-Section:NewToggle("FREEZE TRADE", "ToggleInfo", function(state)
-    if state then
-        print("Toggle On")
-    else
-        print("Toggle Off")
-    end
+Section:NewLabel("Freeze Trade")
+Section:NewButton("Freeze", "", function()
+    print("Clicked")
 end)
